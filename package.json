@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MattGThomas/node-db-challenge/issues"
   },
-  "homepage": "https://github.com/MattGThomas/node-db-challenge#readme"
+  "homepage": "https://github.com/MattGThomas/node-db-challenge#readme",
+  "dependencies": {
+    "knex": "^0.19.3",
+    "sqlite3": "^4.1.0"
+  }
 }
