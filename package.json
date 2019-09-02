@@ -4,7 +4,7 @@
   "description": "## Description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/MattGThomas/node-db-challenge#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.19.3",
+    "nodemon": "^1.19.1",
     "sqlite3": "^4.1.0"
   }
 }
