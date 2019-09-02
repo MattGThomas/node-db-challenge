@@ -7,11 +7,6 @@ exports.up = function(knex, Promise) {
       tbl.string('project_description');
       tbl.boolean('project_completed')
         .defaultTo(false);
-      tbl.integer('resource_id')
-        .unsigned()
-        .notNullable()
-        .references('id')
-        .inTable('resources');
   })
   .createTable('resources', tbl => {
       tbl.increments();
